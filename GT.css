@@ -1,0 +1,250 @@
+﻿body {
+	margin-top:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #f2f2f7;
+}
+
+#container {
+	width: 780px;
+	margin: 0 auto 0 auto;
+}
+
+#masthead {
+	margin-top:0;
+	text-align: center;
+	width: 778px;
+	border: 1px solid #808080;
+	background-color: #33627d;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+#navigation {
+	position: relative;
+	float: left;
+	width: 90px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #808080;
+	background-color: #fff;
+	padding-top: 50px;
+	height: 360px;
+}
+
+#content {
+	float: left;
+	width: 656px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px solid #808080;
+	background-color: #fff;
+}
+
+#footer {
+	text-align: center;
+	clear: both;
+	width: 698px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: none;
+}
+
+#masthead h3 {
+	color: white;
+	margin-bottom: 0px;
+}
+
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation a {
+	color: #3d6c87;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	border: 1px solid #fff;
+}
+
+#navigation a:hover {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #5f8ea9;
+	background-color: #5f8ea9;
+}
+
+/* Estilos de contenido */
+#content h1,h2,h3,h4,h5,h6 {
+	color: #3d6c87;
+	text-align:center;
+}
+
+#content h2 {
+	font-size: 11pt;
+}
+
+/* Estilos de pie de página */
+#footer p {
+	color: #808080;
+	margin-top: 5px;
+}
+
+#footer a {
+	color: #5f8ea9;
+	text-decoration: underline;
+	padding-left: 100px;
+}
+
+#footer a:hover {
+	color: #33627d;
+	text-decoration: none;
+}
+
+a {
+	color: #5f8ea9;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #33627d;
+	text-decoration: underline;
+}
+
+#propiedades {
+	margin-bottom:20px;
+}
+
+#propiedades ul {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#propiedades ul ul {
+	list-style-type: none;
+	display: block;
+	margin-left: 20%;
+}
+
+#datos li {
+	margin: 10px;
+}
+
+#datos li li {
+	margin: 4px;
+}
+
+.#calendar {
+	width: 530px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#calendar th {
+	height: 6px;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #C0C0C0;
+}
+
+#calendar td {
+	height: 54px;
+	font-size: 10px;
+	width: 90px;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 2px;
+	background-color: #FFFFFF;
+}
+
+#calendar p {
+	padding: 1px;
+	margin-top: 1px;
+	margin-bottom: 4px;
+	text-align:right;
+}
+
+#emples {
+	border: none;
+	border-color: #AAAAAA;
+	width: 110px;
+	height:400px;
+	float: left;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-right: 4px;
+	padding-bottom: 10px;
+	overflow : auto;
+}
+
+#emples p {
+	padding: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#emples a:hover {
+	background-color: #33627d;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navmes a {
+	text-decoration: none;
+}
+
+#calendar td.otromes {
+	background-color: #e3e3e3;
+}
+
+
+#calendar th.otromes {
+	color: #FFFFFF;
+}
+
+#calendar td.estemes {
+}
+
+#calendar td.estemesf {
+	background-color: #FFCCCC;
+}
+
+#calendar th.estemes {
+}
+
+.tblcal {
+	background-color: #808080;
+}
+
+.navmes a:hover {
+	text-decoration: none;
+	color: #33627d;
+}
+
+.select {
+background-color:#33627d;
+}
+
+.select a{	
+color:white;
+}
+
+#emples a {
+	text-decoration: none;
+}
+
